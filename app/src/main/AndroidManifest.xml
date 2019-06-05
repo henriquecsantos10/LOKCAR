@@ -9,15 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/TemaSemBarra">
+        <activity android:name=".Minhas_Reservas">
+
+        </activity>
         <activity android:name=".Nova_Reserva">
+
+        </activity>
+        <activity android:name=".Dados_J">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".Dados_J">
-
         </activity>
         <activity
             android:name=".Dados_Cliente_fis"

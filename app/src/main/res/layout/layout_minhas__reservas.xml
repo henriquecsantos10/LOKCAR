@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Minhas_Reservas">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toobal_cance_reservas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4b9fed"
+                app:title="Minhas Reservas"
+                app:titleTextColor="@color/inicio">
+
+            </android.support.v7.widget.Toolbar>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Minhas Reservas"
+                android:textSize="25dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/fundo_reserva"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nome_veiculo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:hint="Peugeot Boxer 2019"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="24dp" />
+
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-85dp"
+                    android:src="@drawable/boxer" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="-100dp"
+                    android:layout_marginLeft="30dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Filial de Retirada"
+                    android:textStyle="bold"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/cod_reserva"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Código da Reserva"
+                    android:textSize="20dp"
+                    android:layout_marginTop="15dp"/>
+
+                <TextView
+                    android:id="@+id/local_retirada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:hint="Local/Retirada"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/data_retirada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:hint="Data/Retirada"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/hora_retirada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:hint="Hora/Retirada"
+                    android:textSize="20dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="20dp"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:text="Filial de Entrega"
+                            android:textStyle="bold"
+                            android:textSize="20dp" />
+                            <TextView
+                                android:id="@+id/local_entrega"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:textSize="20dp"
+                            android:hint="Local/Entrega" />
+
+                        <TextView
+                            android:id="@+id/data_entrega"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:textSize="20dp"
+                            android:hint="Data/Entrega" />
+                        <TextView
+                            android:id="@+id/hora_entrega"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:textSize="20dp"
+                            android:hint="Hora/Entrega" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginTop="30dp">
+                            <TextView
+                                android:layout_marginTop="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Valor:"
+                                android:textSize="33dp"
+                                android:textStyle="bold"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginLeft="125dp"
+                                android:layout_marginTop="30dp">
+
+                                <TextView
+                                    android:id="@+id/valor"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:hint="R$ 79,00"
+                                    android:textSize="33dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/amarelo"
+                                    android:gravity="center"
+                                    android:layout_marginTop="23dp"/>
+                            </LinearLayout>
+
+                            </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="50dp">
+                        <Button
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:text="CANCELAR"
+                            android:background="@drawable/botao_dados_cliente"
+                            android:layout_marginLeft="345dp"
+                            android:layout_margin="25dp"/>
+                        </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+</ScrollView>

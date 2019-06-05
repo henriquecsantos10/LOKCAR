@@ -12,7 +12,7 @@
         android:orientation="vertical">
 
         <android.support.v7.widget.Toolbar
-            android:id="@+id/toobal_dado"
+            android:id="@+id/toobal_dados"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:background="#4b9fed"
@@ -29,128 +29,85 @@
             android:orientation="vertical">
 
 
-            <TextView
-                android:id="@+id/t_Razao_Social"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
-                android:layout_marginBottom="15dp"
-                android:text="Razão Social "
-                android:textSize="25dp"
-                android:textStyle="bold" />
+
 
             <EditText
                 android:id="@+id/e_Razao_Social"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
+                android:layout_marginBottom="40dp"
                 android:background="@drawable/borda_edit"
-                android:textSize="20dp"
+                android:textSize="30dp"
+                android:hint="Razão Social"
 
                 />
 
-            <TextView
-                android:id="@+id/t_Nome_Fantasia"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
-                android:text="Nome Fantasia"
-                android:textSize="25dp"
-                android:textStyle="bold" />
+
 
             <EditText
                 android:id="@+id/e_Nome_Fantasia"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
+                android:layout_marginBottom="40dp"
                 android:background="@drawable/borda_edit"
-                android:textSize="20dp" />
+                android:textSize="30dp"
+                android:hint="Nome Fantasia"/>
 
 
-            <TextView
-                android:id="@+id/t_Representante"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
-                android:text="Representante "
-                android:textSize="25dp"
-                android:textStyle="bold" />
+
 
             <EditText
                 android:id="@+id/e_Representante"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
+                android:layout_marginBottom="40dp"
                 android:background="@drawable/borda_edit"
-                android:textSize="20dp" />
+                android:textSize="30dp"
+                android:hint="Representante"/>
 
-            <TextView
-                android:id="@+id/t_cpf"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
-                android:text="CPF "
-                android:textSize="25dp"
-                android:textStyle="bold" />
+
 
             <EditText
                 android:id="@+id/e_cpf"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
+                android:layout_marginBottom="40dp"
                 android:background="@drawable/borda_edit"
-                android:textSize="20dp" />
+                android:textSize="30dp"
+                android:hint="CPF"/>
 
-            <TextView
-                android:id="@+id/t_cnh"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
-                android:text="CNH "
-                android:textSize="25dp"
-                android:textStyle="bold" />
+
 
             <EditText
                 android:id="@+id/e_cnh"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/borda_edit"
-                android:layout_marginBottom="15dp"
-                android:textSize="20dp" />
+                android:layout_marginBottom="40dp"
+                android:textSize="30dp"
+                android:hint="CNH"/>
 
-            <TextView
-                android:id="@+id/t_CNPJ"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
-                android:text="CNPJ "
-                android:textSize="25dp"
-                android:textStyle="bold" />
+
 
             <EditText
                 android:id="@+id/e_CNPJ"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
+                android:layout_marginBottom="40dp"
                 android:background="@drawable/borda_edit"
-                android:textSize="20dp" />
+                android:textSize="30dp"
+                android:hint="CNPJ"/>
 
-            <TextView
-                android:id="@+id/t_Codigo_Cli"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp"
-                android:text="Codigo do cóliente "
-                android:textSize="25dp"
-                android:textStyle="bold" />
+
 
             <EditText
                 android:id="@+id/e_Codigo_Cliente"
                 android:layout_width="match_parent"
-                android:layout_marginBottom="15dp"
+                android:layout_marginBottom="40dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/borda_edit"
-                android:textSize="20dp" />
+                android:textSize="30dp"
+                android:hint="Código"/>
 
 
         </LinearLayout>

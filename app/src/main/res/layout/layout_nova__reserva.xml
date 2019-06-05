@@ -16,6 +16,7 @@
         android:orientation="vertical">
 
     <android.support.v7.widget.Toolbar
+        android:id="@+id/toobal_nova_reserva"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#4b9fed"
