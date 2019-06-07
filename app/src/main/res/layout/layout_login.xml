@@ -59,7 +59,9 @@
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:background="@drawable/botao_login"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            android:onClick="abrirmenu"
+            android:id="@+id/entrar"/>
 
     </LinearLayout>
 

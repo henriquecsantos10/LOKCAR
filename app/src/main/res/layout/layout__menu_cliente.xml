@@ -24,7 +24,9 @@
             android:background="@drawable/botao_dados_cliente"
             android:text="MEUS DADOS"
             android:textColor="#ffff"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:onClick="selecionarJanela"
+            />
 
         <Button
             android:id="@+id/minhas_reservas"
@@ -35,7 +37,8 @@
             android:background="@drawable/botao_dados_cliente"
             android:text="MINHAS RESERVAS"
             android:textColor="#ffff"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:onClick="selecionarJanela"/>
 
         <Button
             android:id="@+id/fazer_nova_reserva"
@@ -46,7 +49,8 @@
             android:background="@drawable/botao_dados_cliente"
             android:text="FAZER NOVA RESERVA"
             android:textColor="#ffff"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:onClick="selecionarJanela"/>
 
         <Button
             android:id="@+id/sair"
@@ -57,7 +61,8 @@
             android:background="@drawable/botao_dados_cliente"
             android:text="SAIR"
             android:textColor="#ffff"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:onClick="sair"/>
 
     </LinearLayout>
 

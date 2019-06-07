@@ -14,19 +14,10 @@ public class Dados_Cliente_fis extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_dados__cliente_fis);
 
-        Toolbar toolbar = (Toolbar)findViewById(R.id.toobal_dados);
-        setSupportActionBar(toolbar);
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-
-        MenuInflater menuInflater = getMenuInflater();
-
-        return super.onCreateOptionsMenu(menu);
     }
 }
+
+
+
 

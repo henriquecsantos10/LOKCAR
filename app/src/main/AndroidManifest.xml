@@ -9,28 +9,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/TemaSemBarra">
-        <activity android:name=".Minhas_Reservas">
-
+        <activity android:name=".Linha_Minhas_Reservas">
         </activity>
         <activity android:name=".Nova_Reserva">
 
         </activity>
         <activity android:name=".Dados_J">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".Dados_Cliente_fis"
             android:theme="@style/TemaSemBarra" />
         <activity
             android:name=".Menu_Cliente"
-            android:theme="@style/TemaSemBarra" />
+            android:theme="@style/TemaSemBarra">
+
+        </activity>
+
         <activity
             android:name=".Login"
-            android:theme="@style/TemaSemBarra" />
+            android:theme="@style/TemaSemBarra" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".MainActivity"
             android:theme="@style/TemaSemBarra" />

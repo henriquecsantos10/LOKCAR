@@ -19,15 +19,9 @@
 
 
 
-            <android.support.v7.widget.Toolbar
-                android:id="@+id/toobal_cance_reservas"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#4b9fed"
-                app:title="Minhas Reservas"
-                app:titleTextColor="@color/inicio">
 
-            </android.support.v7.widget.Toolbar>
+
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -54,6 +48,7 @@
                     android:textSize="24dp" />
 
                 <ImageView
+                    android:id="@+id/img_veiculo"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
