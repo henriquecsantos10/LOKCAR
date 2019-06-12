@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info_veiculo"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/fundo_reserva">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toobal_nova_reserva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4b9fed"
+        app:title="Nova Reserva"
+        app:titleTextColor="@color/inicio">
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/fundo_reserva">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fiat Uno 2019"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/uno" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="R$ 79,00"
+                        android:textSize="33dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/amarelo"
+                        android:gravity="center"
+                        android:layout_marginTop="55dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Valor da diária"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="22dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Local de retirada"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/e_filial_ret"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Filial"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+            <DatePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </DatePicker>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

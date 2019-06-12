@@ -15,7 +15,7 @@ public class Menu_Cliente extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout__menu_cliente);
     }
-    
+
     public void btn_dados(View view) {
     }
 
