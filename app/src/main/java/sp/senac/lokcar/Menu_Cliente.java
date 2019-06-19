@@ -24,7 +24,7 @@ public class Menu_Cliente extends AppCompatActivity {
             case R.id.meusdados: startActivity(new Intent(getApplicationContext(),Dados_Cliente_fis.class));
             break;
 
-            case R.id.minhas_reservas: startActivity(new Intent(getApplicationContext(),Linha_Minhas_Reservas.class));
+            case R.id.minhas_reservas: startActivity(new Intent(getApplicationContext(),Linha_M_Reservas.class));
                 break;
 
             case R.id.fazer_nova_reserva: startActivity(new Intent(getApplicationContext(),Nova_Reserva.class));

@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#4b9fed"
-        app:title="Nova Reserva"
+        app:title="Confirmar Reserva"
         app:titleTextColor="@color/inicio">
 
     </android.support.v7.widget.Toolbar>
@@ -94,13 +94,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Local de retirada"
+            android:text="Local da retirada"
             android:textStyle="bold"
             android:textSize="20dp"/>
 
-            <TextView
+            <EditText
                 android:id="@+id/e_filial_ret"
-                android:layout_width="match_parent"
+                android:layout_width="365dp"
                 android:layout_height="wrap_content"
                 android:hint="Filial"
                 android:textSize="20dp"
@@ -108,15 +108,81 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Data"
+                android:text="Data da retirada"
                 android:layout_marginTop="15dp"
                 android:textStyle="bold"
                 android:textSize="20dp"/>
             <DatePicker
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
             </DatePicker>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hora da retirada"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/e_hora_ret"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:hint="hora"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Local da entrega"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+            <EditText
+                android:id="@+id/e_filial_entr"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:hint="Filial"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data da entrega"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+            <DatePicker
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+            </DatePicker>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hora da entrega"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+            <EditText
+                android:id="@+id/e_hora_entr"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:hint="Hora"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"/>
+
         </LinearLayout>
+        <Button
+            android:id="@+id/confirmar"
+            android:onClick="abrirmenu"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="CONFIRMAR"
+            android:background="@drawable/botao_dados_cliente"
+            android:layout_gravity="center"
+            android:layout_margin="25dp"/>
     </LinearLayout>
 </LinearLayout>
 </LinearLayout>

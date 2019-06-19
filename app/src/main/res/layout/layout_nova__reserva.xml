@@ -120,11 +120,13 @@
             android:padding="10dp"/>
     </LinearLayout>
         <Button
+            android:id="@+id/alugar"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="ALUGAR"
             android:background="@drawable/botao_dados_cliente"
             android:layout_gravity="center"
+            android:onClick="abririnfo_veiculo"
             android:layout_margin="25dp"/>
 
 </LinearLayout>
@@ -221,12 +223,14 @@
 
             </LinearLayout>
             <Button
+                android:id="@+id/alugar2"
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:text="ALUGAR"
                 android:background="@drawable/botao_dados_cliente"
                 android:layout_gravity="center"
-                android:layout_margin="25dp"/>
+                android:layout_margin="25dp"
+                android:onClick="abririnfo_veiculo"/>
 
         </LinearLayout>
 
@@ -326,12 +330,14 @@
                 android:padding="10dp"/>
         </LinearLayout>
         <Button
+            android:id="@+id/alugar3"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="ALUGAR"
             android:background="@drawable/botao_dados_cliente"
             android:layout_gravity="center"
-            android:layout_margin="25dp"/>
+            android:layout_margin="25dp"
+            android:onClick="abririnfo_veiculo"/>
 
     </LinearLayout>
     <LinearLayout
@@ -425,13 +431,16 @@
                 android:text="HILL ASSIST"
                 android:padding="10dp"/>
         </LinearLayout>
+
         <Button
+            android:id="@+id/alugar4"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:text="ALUGAR"
-            android:background="@drawable/botao_dados_cliente"
             android:layout_gravity="center"
-            android:layout_margin="25dp"/>
+            android:layout_margin="25dp"
+            android:background="@drawable/botao_dados_cliente"
+            android:text="ALUGAR"
+            android:onClick="abririnfo_veiculo"/>
 
     </LinearLayout>
 

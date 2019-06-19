@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Linha_Minhas_Reservas"
+    tools:context=".Linha_M_Reservas"
     android:orientation="vertical">
 
     <android.support.v7.widget.Toolbar
@@ -16,9 +16,13 @@
         app:titleTextColor="@color/inicio"/>
 
     <ListView
-        android:id="@+id/ListView"
+        android:id="@+id/Lista_reservas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     </ListView>
+
+
+
+
 
 </LinearLayout>
